@@ -1,0 +1,12 @@
+.contenedor{
+    width: 900px;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px rgb(100, 5, 5) solid;
+    margin: auto;
+    padding: auto;
+    
+}

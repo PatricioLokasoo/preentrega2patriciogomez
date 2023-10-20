@@ -5,8 +5,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 15px rgb(100, 5, 5) solid;
+    border: 15px rgb(243, 243, 243) solid;
     margin: auto;
     padding: auto;
     
+    
+}
+
+body {
+    background-color: rgb(57, 57, 57);
+    color: aliceblue;
+}
+
+.titulo{
+width: 500px;
+height: auto;
+
+
+}
+
+.boton{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(15, 15, 15);
+    background-color: tomato;
+    border-radius:23px ;
+    border:solid white 1px;
+}
+
+.boton:hover{
+    position: relative;
+    top: 5px;
+animation-delay: 2ms;
 }

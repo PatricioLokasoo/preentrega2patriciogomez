@@ -9,13 +9,14 @@
     margin: auto;
     padding: auto;
     
-    
 }
 
 body {
+    background-image:linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("https://media.revistaad.es/photos/620cbc911db9f1841aebdf15/16:9/w_2560%2Cc_limit/portada.jpg");
     background-color: rgb(57, 57, 57);
     color: aliceblue;
 }
+
 
 .titulo{
 width: 500px;
@@ -35,10 +36,16 @@ height: auto;
     background-color: tomato;
     border-radius:23px ;
     border:solid white 1px;
+    color:#ffffff;
+    
 }
 
 .boton:hover{
     position: relative;
     top: 5px;
 animation-delay: 2ms;
+}
+
+a{
+    text-decoration: none;
 }
